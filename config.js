@@ -66,6 +66,7 @@ CKEDITOR.editorConfig = function( config ) {
 		'templates,' +
 		'toolbar,' +
 		'undo,' +
+		'switchbg,' +
 		'wysiwygarea';
 	// %REMOVE_END%
 };

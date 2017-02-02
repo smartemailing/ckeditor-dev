@@ -261,6 +261,60 @@
 				},
 				{
 					type: 'vbox',
+					id: 'customLinks',
+					children: [
+						{
+							type: "button",
+							id: "browse",
+							hidden: "true",
+							filebrowser: "info:url",
+							label: commonLang.browseServer
+						},
+						{
+							type: "button",
+							id: "unsubscribe",
+							label: commonLang.unsubscribelink,
+							onCLick: function(event) {
+								this.getDialog().getContentElement('info', 'protocol').setValue('');
+								this.getDialog().getContentElement('info', 'url').setValue('{{unsubscribe}}');
+							}
+						},
+						{
+							type: "button",
+							id: "webversion",
+							label: commonLang.webversionlink,
+							onCLick: function(event) {
+								this.getDialog().getContentElement('info', 'protocol').setValue('');
+								this.getDialog().getContentElement('info', 'url').setValue('{{webversion}}');
+							}
+						},
+						{
+							type: "button",
+							id: "confirmlink",
+							label: commonLang.confirmlink,
+							onCLick: function(event) {
+								this.getDialog().getContentElement('info', 'protocol').setValue('');
+								this.getDialog().getContentElement('info', 'url').setValue('{{confirmlink}}');
+							}
+						},
+						{
+							type: "button",
+							id: "surveyLink",
+							label: commonLang.surveyLink
+						},
+						{
+							type: "button",
+							id: "affiliateUrl",
+							label: commonLang.affiliateUrl,
+							onCLick: function(event) {
+								this.getDialog().getContentElement('info', 'protocol').setValue('');
+								this.getDialog().getContentElement('info', 'url').setValue('{{recommendUrl}}');
+							}
+						}
+					]
+				},
+				{
+					type: 'vbox',
 					id: 'anchorOptions',
 					width: 260,
 					align: 'center',

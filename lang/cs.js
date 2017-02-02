@@ -29,6 +29,11 @@ CKEDITOR.lang[ 'cs' ] = {
 		editorHelp: 'Stiskněte ALT 0 pro nápovědu',
 
 		browseServer: 'Vybrat na serveru',
+		unsubscribelink: "Odhlašovací odkaz",
+		webversionlink: "Odkaz na online verzi",
+		confirmlink: "Potvrzovací odkaz",
+		surveyLink: "Dotazník",
+		affiliateUrl: "Doporuč příteli",
 		url: 'URL',
 		protocol: 'Protokol',
 		upload: 'Odeslat',

@@ -29,6 +29,11 @@ CKEDITOR.lang[ 'en' ] = {
 		editorHelp: 'Press ALT 0 for help',
 
 		browseServer: 'Browse Server',
+		unsubscribelink: "Unsubscribe link",
+		webversionlink: "Web version link",
+		confirmlink: "Confirmation link",
+		surveyLink: "Survey link",
+		affiliateUrl: "Recommend to a friend",
 		url: 'URL',
 		protocol: 'Protocol',
 		upload: 'Upload',
